@@ -121,7 +121,6 @@ ID Not Found in the Database:
 ```
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-```json
-This version includes a cleaner structure, organized sections, and detailed explanations for each part of the documentation. Let me know if you'd like to add or modify anything else!
+
 
 
