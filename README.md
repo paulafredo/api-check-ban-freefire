@@ -2,7 +2,7 @@
 
 ## 🪪 Account Information
 
-### Endpoint: `/check_ban/`  
+### Endpoint: `/check_ban/uid=`  
 **Method**: `GET`
 
 **Description**:  
@@ -17,7 +17,7 @@ This endpoint retrieves account information based on the specified region and us
 ### 📨 Request Example
 
 ```bash
-GET https://api.paulalfredo.me/check_ban/305000592
+GET https://api.paulalfredo.me/check_ban/uid=305000592
 ```
 This request checks whether the account with UID 305000592 is banned or not.
 
