@@ -1,5 +1,8 @@
 # API Documentation
 
+## Description
+This API is used to check if a Free Fire account is banned or not. Designed for developers and community admins, it offers easy and quick integration to monitor the status of Free Fire accounts. Developed with FastAPI and deployed on Vercel, this API is powerful, reliable, and ready to use.
+
 ## 🪪 Account Information
 
 ### Endpoint: `/check_ban/uid=`  
