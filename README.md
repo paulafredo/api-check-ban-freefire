@@ -12,7 +12,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description     |
 |-----------|--------|----------|-----------------|
-| `uid`     | string | Yes      | The user ID.    |
+| `uid`     | int    | Yes      | The user ID.    |
 
 ### 📨 Request Example
 
