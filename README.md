@@ -27,7 +27,7 @@ This request checks whether the account with UID 305000592 is banned or not.
 
 ## Points d'API
 
-### `GET /check_ban/{uid}`
+### `GET /check_ban/uid={uid}`
 
 Verifies if a user with the given UID is banned.
 
