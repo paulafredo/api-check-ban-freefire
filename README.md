@@ -5,7 +5,7 @@ This API is used to check if a Free Fire account is banned or not. Designed for 
 
 ## 🪪 Account Information
 
-### Endpoint: `/check_ban/uid=`  
+### Endpoint: `/check_ban/`  
 **Method**: `GET`
 
 **Description**:  
@@ -20,14 +20,14 @@ This endpoint retrieves account information based on the specified region and us
 ### 📨 Request Example
 
 ```bash
-GET https://api.paulalfredo.me/check_ban/uid=305000592
+GET https://api.paulalfredo.me/check_ban/305000592
 ```
 This request checks whether the account with UID 305000592 is banned or not.
 
 
 ## Points d'API
 
-### `GET /check_ban/uid={uid}`
+### `GET /check_ban/{uid}`
 
 Verifies if a user with the given UID is banned.
 
