@@ -20,7 +20,7 @@ This endpoint retrieves account information based on the specified region and us
 ### 📨 Request Example
 
 ```bash
-GET https://api.paulalfredo.me/check_ban/305000592
+GET https://api-check-ban.up.railway.app/check_ban/305000592
 ```
 This request checks whether the account with UID 305000592 is banned or not.
 
@@ -40,13 +40,15 @@ Verifies if a user with the given UID is banned.
 When the account is banned:
 ```json
 {
-  "error": false,
+  "credit": "https://t.me/nopethug",
   "status": 200,
   "msg": "id_found",
   "data": {
+    "nickname": "Onlyㅤᴊɪɴㅤ!4u",
+    "region": "ME",
     "is_banned": 1,
-    "id": "2953958574",
-    "period": 3
+    "id": "5502917086",
+    "period": 4
   }
 }
 
@@ -56,10 +58,12 @@ is_banned: 1 indicates the user is banned. 0 means the user is not banned.
 Exemple lorsque le compte n'est pas banni
 ```json
 {
-  "error": false,
+  "credit": "https://t.me/nopethug",
   "status": 200,
   "msg": "id_found",
   "data": {
+    "nickname": "ᴀɴᴛɪㅤMOUHA✘",
+    "region": "ME",
     "is_banned": 0,
     "id": "305000592",
     "period": 0
