@@ -20,7 +20,7 @@ This endpoint retrieves account information based on the specified region and us
 ### 📨 Request Example
 
 ```bash
-GET https://api-check-ban.up.railway.app/check_ban/305000592
+GET https://api-check-ban.vercel.app/check_ban/305000592
 ```
 This request checks whether the account with UID 305000592 is banned or not.
 
